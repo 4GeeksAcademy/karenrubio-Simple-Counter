@@ -1,5 +1,5 @@
 import React from "react";
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 
 //crear un componente que se repita 6 veces
 //crear un componente que sea un poco mas ancho
@@ -29,12 +29,11 @@ setInterval(function(){
     const three = counterSeconds.toFixed(3)/100
     const two = counterSeconds.toFixed(2)/10
     const one = counterSeconds.toFixed(1)
-    counter++
+    counterSeconds++
 
 },1000
 )
 
-           
             
  
 export default Counter;
