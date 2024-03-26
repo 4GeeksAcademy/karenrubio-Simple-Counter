@@ -1,21 +1,22 @@
 import React from "react";
-
+import Secondscounter from "./secondscounter";
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-import Counter from "./counter.jsx";
+
+
+
 
 //create your first component
-const Home = () => {
-	return (
-		<>
 
-		  <Counter />
-		  <Counter digitFour="four" />
-		  <Counter digitThree="three"/>
-		  <Counter digitTwo="two"/>
-		  <Counter digitOne="one" />
-		</>
-	);
-};
-
-export default Home;
+	
+	const Home = (props) => {
+		return (
+		  <>
+			<Secondscounter />
+			<Secondscounter seconds={seconds} />
+			<Secondscounter seconds={seconds}/>
+			<Secondscounter seconds={seconds} />
+			<Secondscounter seconds={seconds}/>
+		  </>
+		);
+	  };
+export default Home
